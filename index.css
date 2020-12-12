@@ -1,0 +1,36 @@
+html, ul, body{
+    padding: 0;
+    margin: 0;
+
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+nav{
+    background-color: rgb(129, 111, 111);
+    display:flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* . link下的ul */
+.links ul{
+    display: flex;
+}
+
+.links ul li{
+    margin-right: 1em;
+}
+
+.links ul li a{
+    color: rgb(172, 54, 54);
+}
+.links ul li a:hover{
+    color:white;
+    font-weight:bold;
+}
